@@ -1,0 +1,11 @@
+{"at": 0, "event": "interim", "text": "ay"}
+{"at": 350, "event": "interim", "text": "ay mi'jo"}
+{"at": 700, "event": "interim", "text": "ay mi'jo, ¿cómo"}
+{"at": 1000, "event": "interim", "text": "ay mi'jo, ¿cómo tú"}
+{"at": 1300, "event": "final", "text": "Ay mi'jo, ¿cómo tú 'tá?", "confidence": 0.93}
+{"at": 1900, "event": "interim", "text": "cuéntame"}
+{"at": 2300, "event": "interim", "text": "cuéntame de la"}
+{"at": 2600, "event": "interim", "text": "cuéntame de la escuela,"}
+{"at": 3000, "event": "interim", "text": "cuéntame de la escuela, ¿qué"}
+{"at": 3400, "event": "final", "text": "Cuéntame de la escuela, ¿qué hay de nuevo?", "confidence": 0.88}
+{"at": 4600, "event": "end"}

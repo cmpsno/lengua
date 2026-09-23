@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>lengua</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header id="topbar">
+    <h1>lengua</h1>
+    <div id="session-controls">
+      <button id="btn-session" class="btn">Start session</button>
+      <button id="btn-save" class="btn ghost" disabled>Save</button>
+      <button id="btn-delete" class="btn ghost danger" disabled>Delete all</button>
+    </div>
+  </header>
+
+  <div id="consent" hidden>
+    <label><input type="checkbox" id="consent-check" />
+      I told grandma I'm using this helper and she said it's OK.</label>
+  </div>
+
+  <main id="conversation" aria-live="polite"></main>
+
+  <section id="tray" aria-label="suggestions">
+    <div id="tray-title">suggestions</div>
+    <div id="chips"></div>
+  </section>
+
+  <section id="review-panel" hidden>
+    <button id="review-toggle" class="btn ghost">review ▾</button>
+    <div id="review-body"></div>
+  </section>
+
+  <footer id="modebar">
+    <div id="mode-toggle" role="group" aria-label="who is speaking">
+      <button id="btn-grandma" class="mode-btn">Grandma</button>
+      <button id="btn-me" class="mode-btn">Me</button>
+    </div>
+    <button id="btn-stuck" class="btn big warn">Stuck</button>
+    <button id="btn-done" class="btn big">Done</button>
+  </footer>
+
+  <div id="status">connecting…</div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+# secrets
+.env
+backend/.env
+
+# deps & builds
+node_modules/
+backend/dist/
+web/dist/
+
+# sessions saved locally (explicit user action only)
+backend/sessions/*.json
+!backend/sessions/.gitkeep
+
+# private audio samples (scripts are fine to commit, audio is not)
+samples/*.wav
+samples/*.mp3
+samples/*.m4a
+samples/*.ogg
+samples/*.flac
+
+# misc
+.DS_Store
+*.log
